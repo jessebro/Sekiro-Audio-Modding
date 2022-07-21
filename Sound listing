@@ -1,0 +1,31 @@
+main.fsb:
+ID 455 == Alert sound
+ID 940-982 == Grunts, eating and drinking
+ID 1348-1389 == Water noises
+ID 683 == Puppeteer ninjutsu?
+ID 487-664 == Footsteps
+ID 408 == Perilous attack charge
+ID 411 == Posture broken
+ID 401-402 == Mikiri counter (may apply in other circumstances)
+ID 670-673 == Deflect sounds
+ID 1008 == One Mind?
+ID 1132-1133 == Whistles
+ID 1270 == Perilous attack warning NOTE: The pitch is lowered in game.
+ID 983-992 == Pain and death
+ID 456 == Press to start
+ID 406 == Jump kick?
+ID 1251 + 1287 == Lightning?
+ID 857 == Healing gourd
+ID 457-458 == Shinobi Execution NOTE: 458 is the drum at the start, 457 is the actual sound. The pitch is lowered in game.
+ID 417 == Boss finisher deathblow
+
+smain.fsb:
+ID 1 == Boss finisher background
+ID 39 == Death sound effect 
+
+c1010.fsb, ID 118-150 == Ashina soldier death sounds
+c1700.fsb, ID 131-147 == Redguard death sounds
+c1310.fsb, ID 133-145 == Okami death sounds
+c1300.fsb, ID 99-105 == Palace Noble flute
+c5100.fsb, ID 168 == Guardian Ape scream
+c1150.fsb, ID 51-53 == Hound death sounds?
