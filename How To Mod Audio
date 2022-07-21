@@ -1,0 +1,38 @@
+1) DOWNLOAD TOOLS
+Download this rar file and extract FSB Ext: https://cdn.discordapp.com/attachments/529900741998149643/659024367648505871/sound_editing_resources.rar
+Download DSSI (Dark Souls Sound Inserter): https://www.nexusmods.com/darksouls/mods/1193
+Download UXM: https://www.nexusmods.com/sekiro/mods/26?tab=description
+
+2) ACCESS SOUND FILES
+First, open UXM and link it to your "sekiro.exe". Then press "Unpack".
+Once that's done, go to your "sound" folder in your Sekiro main directory (e.g. E:/SteamLibrary/steamapps/common/Sekiro).
+You should see a long list of files. Files that end in ".fsb" are the only ones that you want.
+
+3) COPY DESIRED SOUND FILES
+You can identify which fsbs you want by looking at their name.
+main.fsb and smain.fsb contain most generic sound effects, such as deflecting, death, pain, and healing.
+c#.fsb is the sound file for a character with the matching ID (See here for details: https://github.com/SekiroResurrection/modding-wiki/wiki/Characters).
+vm#.fsb contains most, but not all, dialogue on map number #.
+sm#.fsb contains music for map number #.
+
+3a) MAP IDs
+10: Hirata Estate 
+11: Ashina Outskirts/Castle/Reservoir 
+13: Abandonded Dungeon
+15: Ashina Depths/Mibu Village
+17: Sunken Valley
+20: Senpou Temple
+25: Fountainhead Palace
+
+4) OPEN FILES
+Using the DSSI, open the fsb you want to edit. 
+Using the Add Sample button, add any sound effects you want to use. They must be either mp3 or WAV.
+You can use the play button in the FSB Explorer tab to figure out which sound is which.
+Select a sample, hit set target, then select the sound you want (NOTE: You can use the ID of the sound on the far right to help you find it.)
+
+If the DSSI doesn't let you open the fsb, saying that it isn't actually an fsb, then you must do the following:
+- Drag the fsb you want to edit into FSBExt.bat in your "Sound Editting Resources" which you downloaded from the link right at the start.
+- The file should be "filename_crypt.fsb"
+- You can now use this file as normal
+- Once your finished editting the file, drag it into the exe again so its called "filename_crypt_crypt.fsb".
+- Get rid of the "crypt"s in the file name and it should work.
