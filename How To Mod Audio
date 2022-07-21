@@ -10,6 +10,7 @@ You should see a long list of files. Files that end in ".fsb" are the only ones 
 
 3) COPY DESIRED SOUND FILES
 You can identify which fsbs you want by looking at their name.
+
 main.fsb and smain.fsb contain most generic sound effects, such as deflecting, death, pain, and healing.
 c#.fsb is the sound file for a character with the matching ID (See here for details: https://github.com/SekiroResurrection/modding-wiki/wiki/Characters).
 vm#.fsb contains most, but not all, dialogue on map number #.
@@ -30,9 +31,17 @@ Using the Add Sample button, add any sound effects you want to use. They must be
 You can use the play button in the FSB Explorer tab to figure out which sound is which.
 Select a sample, hit set target, then select the sound you want (NOTE: You can use the ID of the sound on the far right to help you find it.)
 
+4a) DECRYPTION + ENCRYPTION
 If the DSSI doesn't let you open the fsb, saying that it isn't actually an fsb, then you must do the following:
 - Drag the fsb you want to edit into FSBExt.bat in your "Sound Editting Resources" which you downloaded from the link right at the start.
 - The file should be "filename_crypt.fsb"
 - You can now use this file as normal
 - Once your finished editting the file, drag it into the exe again so its called "filename_crypt_crypt.fsb".
 - Get rid of the "crypt"s in the file name and it should work.
+
+5) GETTING MOD TO WORK
+Assuming you have Mod Engine installed and mods will work on your machine, complete the following steps to use the sounds in game.
+
+- Make sure any fsbs you decrypted are encrypted again (see step 4a).
+- Make a folder in your "mods" folder in your main game directory called "sound".
+- Put your fsbs in that "sound" folder, then run the game.
